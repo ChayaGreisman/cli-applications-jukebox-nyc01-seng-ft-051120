@@ -30,10 +30,12 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.strip
-  if song_choice
-    puts "Playing #{song_choice}"
-  else
-    puts "Invalid input, please try again"
+  songs.each do |each_song|
+    if song_choice == each_song or song_choice ==  
+      puts "Playing #{song_choice}"
+    else
+      puts "Invalid input, please try again"
+    end
   end
 end
 
