@@ -1,4 +1,6 @@
 # Add your code here
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -24,7 +26,7 @@ def list(songs)
     puts "#{index + 1}. #{a_song}"
   end
 end
-
+binding.pry
 def 
 song_choice = gets.strip
 end
