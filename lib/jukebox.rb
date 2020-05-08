@@ -22,12 +22,11 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.strip
   songs.each do |each_song|
+    binding.pry
     if song_choice == each_song 
       puts "Playing #{each_song}" 
-      break
     elsif song_choice.to_i == songs.index(each_song) + 1 
       puts "Playing #{each_song}"
-      break
     end
   end
   puts "Invalid input, please try again"
