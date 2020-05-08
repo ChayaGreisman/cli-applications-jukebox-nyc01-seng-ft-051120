@@ -1,7 +1,8 @@
 # Add your code here
 
 def help 
-  puts 
+  puts I accept the following commands:
+  puts
 end
 
 def 
