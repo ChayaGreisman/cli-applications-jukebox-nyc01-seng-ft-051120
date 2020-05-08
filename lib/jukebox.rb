@@ -24,7 +24,7 @@ def play(songs)
   songs.each do |each_song|
     if song_choice == each_song 
       puts "Playing #{each_song}"
-    else song_choice.to_i == songs.index(each_song) + 1 
+    elsif song_choice.to_i == songs.index(each_song) + 1 
       puts "Playing #{each_song}"
     end
   end
