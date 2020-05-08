@@ -28,11 +28,4 @@ def list(songs)
 end
 binding.pry
 
-def 
-song_choice = gets.strip
-end
- 
- 
-def run 
-  
-end
+
