@@ -27,6 +27,7 @@ def list(songs)
   end
 end
 binding.pry
+
 def 
 song_choice = gets.strip
 end
