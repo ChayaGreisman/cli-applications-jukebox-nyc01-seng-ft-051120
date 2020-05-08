@@ -24,6 +24,7 @@ def play(songs)
   songs.each do |each_song|
     #binding.pry
     if song_choice == each_song 
+      binding.pry
       puts "Playing #{each_song}" 
       break
     elsif song_choice.to_i == songs.index(each_song) + 1 
