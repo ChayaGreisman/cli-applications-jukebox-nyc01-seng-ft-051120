@@ -32,7 +32,7 @@ def play(songs)
   song_choice = gets.strip
   songs.each do |each_song|
     if song_choice == each_song or song_choice == each_song.index + 1 
-      puts "Playing #{song_choice}"
+      puts "Playing #{each_song}"
     else
       puts "Invalid input, please try again"
     end
