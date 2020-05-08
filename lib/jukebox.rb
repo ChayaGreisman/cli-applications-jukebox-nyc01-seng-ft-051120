@@ -26,6 +26,18 @@ def list(songs)
     puts "#{index + 1}. #{a_song}"
   end
 end
-binding.pry
+
+def play(songs)
+  puts
+end
+
+def 
+song_choice = gets.strip
+end
+ 
+ 
+def run 
+  
+end
 
 
